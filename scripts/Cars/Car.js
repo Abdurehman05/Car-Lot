@@ -5,7 +5,5 @@ export const CarHTML = carObj => {
         <p>MPG: ${carObj.milesPerGallon} </p>
         <p>Year: ${carObj.year} </p>
     </section>    
-       
-    
     `;
 };
