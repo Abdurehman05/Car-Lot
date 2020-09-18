@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(220, 255, 255);
+}
+
+.car-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.card-car {
+    border: solid 1px rgb(5, 4, 5);
+    margin: 1em;
+    min-width: 300px;
+    max-width: 300px;
+}
