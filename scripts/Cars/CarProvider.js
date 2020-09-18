@@ -4,16 +4,13 @@ const carsUrl =
 let cars = [];
 
 export const useCars = () => {
-    return cars.slice()
-
-
+    return cars.slice();
 };
 
 export const getCars = () => {
     return fetch(carsUrl)
         .then(res => res.json())
         .then(parsedRes => {
-            cars = parsedRes
-        })
-
+            cars = parsedRes;
+        });
 };
